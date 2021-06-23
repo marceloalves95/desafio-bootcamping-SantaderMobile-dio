@@ -38,7 +38,7 @@ Imprima a variável **SOMA** com todas as letras maiúsculas, inserindo um espa�
 
 # <a id="ancora2"></a>[Desafio 2](#ancora)
 
-Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+>  Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
 ## Entrada
 O arquivo de entrada contém 2 valores com uma casa decimal cada um.
@@ -56,7 +56,7 @@ Calcule e imprima a variável **MEDIA** conforme exemplo abaixo, com 5 dígitos 
 | 10.0                |                   |
 
 # <a id="ancora3"></a>[Desafio 3](#ancora3)
-Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável **PROD,** mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo). 
+> Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável **PROD,** mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo). 
 
 ## Entrada
 A entrada contém 2 valores inteiros.
@@ -74,7 +74,7 @@ Exiba a variável **PROD** conforme exemplo abaixo, tendo obrigatoriamente um es
 | 9                   |                   |
 
 # <a id="ancora4"></a>[Desafio 4](#ancora)
-Leia 4 valores inteiros A, B, C e D. Com base nisso, se o valor de B for maior do que de C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se tanto C quanto D forem positivos e, ainda, se a variável A for par, escreva a mensagem **"Valores aceitos"**, senão escrever **"Valores nao aceitos"**.
+> Leia 4 valores inteiros A, B, C e D. Com base nisso, se o valor de B for maior do que de C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se tanto C quanto D forem positivos e, ainda, se a variável A for par, escreva a mensagem **"Valores aceitos"**, senão escrever **"Valores nao aceitos"**.
 
 ## Entrada
 Quatro números inteiros A, B, C e D.
@@ -88,7 +88,7 @@ Imprima a mensagem corretamente esperada pela validação dos valores.
 | 2 3 2 6             | Valores aceitos     |
 
 # <a id="ancora5"></a>[Desafio 5](#ancora)
-A seguinte sequência de números 0 1 1 2 3 5 8 13 21... é conhecida como série de Fibonacci. Nessa sequência, cada número, depois dos 2 primeiros, é igual à soma dos 2 anteriores. Escreva um algoritmo que leia um inteiro N (N < 46) e mostre os N primeiros números dessa série.
+> A seguinte sequência de números 0 1 1 2 3 5 8 13 21... é conhecida como série de Fibonacci. Nessa sequência, cada número, depois dos 2 primeiros, é igual à soma dos 2 anteriores. Escreva um algoritmo que leia um inteiro N (N < 46) e mostre os N primeiros números dessa série.
 
 ## Entrada
 O arquivo de entrada contém um valor inteiro N (0 < N < 46).
@@ -101,7 +101,7 @@ Os valores devem ser mostrados na mesma linha, separados por um espaço em branc
 | 5                   | 0 1 1 2 3         |
 
 # <a id="ancora6"></a>[Desafio 6](#ancora)
-Você deve fazer a leitura de 5 valores inteiros. Em seguida mostre quantos valores informados são pares, quantos valores informados são ímpares, quantos valores informados são positivos e quantos valores informados são negativos.
+> Você deve fazer a leitura de 5 valores inteiros. Em seguida mostre quantos valores informados são pares, quantos valores informados são ímpares, quantos valores informados são positivos e quantos valores informados são negativos.
 
 ## Entrada
 Você receberá 5 valores inteiros.
@@ -114,15 +114,13 @@ Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por lin
 | -5<br/>0<br/>-3<br/>-4<br/>12 | 3 valor(es) par(es)<br/>2 valor(es) impar(es)<br/>1 valor(es) positivo(s)<br/>3 valor(es) negativo(s) |
 
 # <a id="ancora7"></a>[Desafio 7](#ancora)
-Leia 3 valores reais (A, B e C) e verifique se eles formam ou não um triângulo. Em caso positivo, calcule o perímetro do triângulo e apresente a mensagem:
-
-Perímetro = XX.X
-
-
-Em caso negativo, calcule a área do trapézio que tem A e B como base e C como altura, mostrando a mensagem
-
-
-Área = XX.X
+> Leia 3 valores reais (A, B e C) e verifique se eles formam ou não um triângulo. Em caso positivo, calcule o perímetro do triângulo e apresente a mensagem:
+>
+> Perímetro = XX.X
+>
+> Em caso negativo, calcule a área do trapézio que tem A e B como base e C como altura, mostrando a mensagem
+>
+> Área = XX.X
 
 ## Entrada
 A entrada contém três valores reais.
@@ -136,16 +134,16 @@ O resultado deve ser apresentado com uma casa decimal.
 | 6.0 4.0 2.1         | Perimetro = 12.1  |
 
 # <a id="ancora8"></a>[Desafio 8](#ancora)
-A corrida de tartarugas é um esporte que cresceu muito nos últimos anos, fazendo com que vários competidores se dediquem a capturar tartarugas rápidas, e treina-las para faturar milhões em corridas pelo mundo. Porém a tarefa de capturar tartarugas não é uma tarefa muito fácil, pois quase todos esses répteis são bem lentos. Cada tartaruga é classificada em um nível dependendo de sua velocidade:
-
-- Nível 1: Se a velocidade é menor que 10 cm/h .
-- Nível 2: Se a velocidade é maior ou igual a 10 cm/h e menor que 20 cm/h .
-- Nível 3: Se a velocidade é maior ou igual a 20 cm/h .
-
-Sua tarefa é identificar qual o nível de velocidade da tartaruga mais veloz de um grupo.
+> A corrida de tartarugas é um esporte que cresceu muito nos últimos anos, fazendo com que vários competidores se dediquem a capturar tartarugas rápidas, e treina-las para faturar milhões em corridas pelo mundo. Porém a tarefa de capturar tartarugas não é uma tarefa muito fácil, pois quase todos esses répteis são bem lentos. Cada tartaruga é classificada em um nível dependendo de sua velocidade:
+>
+> - Nível 1: Se a velocidade é menor que 10 cm/h .
+> - Nível 2: Se a velocidade é maior ou igual a 10 cm/h e menor que 20 cm/h .
+> - Nível 3: Se a velocidade é maior ou igual a 20 cm/h .
+>
+> Sua tarefa é identificar qual o nível de velocidade da tartaruga mais veloz de um grupo.
 
 ## Entrada
-A entrada consiste de múltiplos casos de teste, e cada um consiste em duas linhas: A primeira linha contém um inteiro **L** (1 ≤ **L** ≤ 500) representando o número de tartarugas do grupo, e a segunda linha contém **L** inteiros **Vi** (1 ≤ **Vi** ≤ 50) representando as velocidades de cada tartaruga do grupo.
+> A entrada consiste de múltiplos casos de teste, e cada um consiste em duas linhas: A primeira linha contém um inteiro **L** (1 ≤ **L** ≤ 500) representando o número de tartarugas do grupo, e a segunda linha contém **L** inteiros **Vi** (1 ≤ **Vi** ≤ 50) representando as velocidades de cada tartaruga do grupo.
 
 ## Saída
 Para cada caso de teste, imprima uma única linha indicando o nível de velocidade da tartaruga mais veloz do grupo.
@@ -154,11 +152,11 @@ Para cada caso de teste, imprima uma única linha indicando o nível de velocida
 | ------------------------------------------------------------ | ----------------- |
 | 10<br/>10 10 10 10 15 18 20 15 11 10<br/>10<br/>1 5 2 9 5 5 8 4 4 3<br/>10<br/>19 9 1 4 5 8 6 11 9 7 | 3<br/>1<br/>2     |
 # <a id="ancora9"></a>[Desafio 9](#ancora)
-Você tem em mãos dois cabos circulares de energia. O primeiro cabo tem raio R1 e o segundo raio R2. Você precisa comprar um conduite circular (veja a imagem abaixo que ilustra um conduite) de maneira a passar os dois cabos por dentro dele:
-
-![](src/imagens/desafio9.png)
-
-Qual o menor raio do conduite que você deve comprar? Em outras palavras, dado dois círculos, qual o raio do menor círculo que possa englobar ambos os dois?
+> Você tem em mãos dois cabos circulares de energia. O primeiro cabo tem raio R1 e o segundo raio R2. Você precisa comprar um conduite circular (veja a imagem abaixo que ilustra um conduite) de maneira a passar os dois cabos por dentro dele:
+>
+> ![](src/imagens/desafio9.png)
+>
+> Qual o menor raio do conduite que você deve comprar? Em outras palavras, dado dois círculos, qual o raio do menor círculo que possa englobar ambos os dois?
 
 ## Entrada
 Na primeira linha teremos um inteiro T (T ≤ 10000), indicando o número de casos de teste.
@@ -176,11 +174,11 @@ Em cada caso, imprima o menor raio possível em uma única linha
 | 8 2                 | 10                |
 
 # <a id="ancora10"></a>[Desafio 10](#ancora)
-Duas motos (X e Y) partem em uma mesma direção. A moto X sai com velocidade constante de 60 Km/h e a moto Y sai com velocidade constante de 90 Km/h.
-
-Em uma hora (60 minutos) a moto Y consegue se distanciar 30 quilômetros da moto X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
-
-O seu desafio é ler a distância (em Km) e calcular quanto tempo leva (em minutos) para a moto Y tomar essa distância da outra moto.
+> Duas motos (X e Y) partem em uma mesma direção. A moto X sai com velocidade constante de 60 Km/h e a moto Y sai com velocidade constante de 90 Km/h.
+>
+> Em uma hora (60 minutos) a moto Y consegue se distanciar 30 quilômetros da moto X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
+>
+> O seu desafio é ler a distância (em Km) e calcular quanto tempo leva (em minutos) para a moto Y tomar essa distância da outra moto.
 
 ## Entrada
 O arquivo de entrada contém um número inteiro **K** que representa a quantidade de quilômetro que que a moto Y deve estar da moto X.
@@ -193,7 +191,7 @@ Imprima o tempo necessário para a moto Y ficar com a quantidade **K** de quilô
 | 30                  | 60 minutos        |
 | 110                 | 220 minutos       |
 # <a id="ancora11"></a>[Desafio 11](#ancora)
-Faça a leitura de um valor inteiro. Em seguida, calcule o menor número de notas possíveis (cédulas) onde o valor pode ser decomposto. As notas que você deve considerar são de 100, 50, 20, 10, 5, 2 e 1. Na sequência mostre **o valor lido** e a relação de notas necessárias.
+> Faça a leitura de um valor inteiro. Em seguida, calcule o menor número de notas possíveis (cédulas) onde o valor pode ser decomposto. As notas que você deve considerar são de 100, 50, 20, 10, 5, 2 e 1. Na sequência mostre **o valor lido** e a relação de notas necessárias.
 
 ## Entrada
 Você receberá um valor inteiro **N** (0 < **N** < 1000000).
