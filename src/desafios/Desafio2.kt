@@ -1,29 +1,26 @@
 package desafios
 
+import java.util.*
+
 /**
  * @author RubioAlves
  * Created 23/06/2021 at 14:14
  */
-class Desafio2 {
+fun main() {
 
-    /*
-    import java.util.Scanner
+    val reader = Scanner(System.`in`).useLocale(Locale.US)
 
-fun main(args: Array<String>) {
-  var reader = Scanner(System.`in`)
+    val a = reader.nextDouble()
+    val b = reader.nextDouble()
 
-  var a = reader.nextDouble()
-  var b =
+    val weightA = 3.5
+    val weightB = 7.5
+    val totalWeight = 11.0
 
-  var weightA = 3.5
-  var weightB =
-  var totalWeight =
+    val m = (a * weightA + b * weightB) / totalWeight
 
-  var m = (a *      +  * weightB) / totalWeight
+    val r = "%.5f".format(m)
+    val ponto = r.replace(",", ".")
 
-  var r = "%.5f".format(m)
-
-  println("MEDIA = ${r}")
-}
-     */
+    println("MEDIA = $ponto")
 }
