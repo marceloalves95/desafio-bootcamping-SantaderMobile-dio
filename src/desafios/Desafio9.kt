@@ -4,10 +4,7 @@ package desafios
  * @author RubioAlves
  * Created 23/06/2021 at 15:02
  */
-class Desafio9 {
-
-    /*
-    fun main() {
+fun main() {
 
     val inteiros = mutableListOf<Int>()
     var soma:Int
@@ -32,6 +29,4 @@ class Desafio9 {
     }
 
 
-}
-     */
 }
