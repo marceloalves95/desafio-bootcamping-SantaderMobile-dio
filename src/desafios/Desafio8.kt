@@ -1,36 +1,28 @@
 package desafios
 
-/**
- * @author RubioAlves
- * Created 23/06/2021 at 14:39
- */
-class Desafio8 {
-    /*
-    import java.io.EOFException
 import java.lang.Exception
 
-fun main(args: Array<String>) {
+fun main() {
 
     while (true) {
 
         try {
 
-
-            val l = readLine()!!.toInt()
-                val v = readLine()!!.split(" ").run { map { it.toInt() } }
-                val sorted = v.toTypedArray()
-                sorted.sort()
-                    when (sorted.last()) {
-                        in 0 .. 9 -> {
-                            println(1)
-                        }
-                        in 10 .. 19 -> {
-                            println(2)
-                        }
-                        else -> {
-                            println(3)
-                        }
-                    }
+            readLine()!!.toInt()
+            val v = readLine()!!.split(" ").run { map { it.toInt() } }
+            val sorted = v.toTypedArray()
+            sorted.sort()
+            when (sorted.last()) {
+                in 0 .. 9 -> {
+                    println(1)
+                }
+                in 10 .. 19 -> {
+                    println(2)
+                }
+                else -> {
+                    println(3)
+                }
+            }
 
 
 
@@ -42,6 +34,4 @@ fun main(args: Array<String>) {
             break
         }
     }
-}
-     */
 }

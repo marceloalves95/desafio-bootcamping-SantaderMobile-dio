@@ -4,24 +4,33 @@ package desafios
  * @author RubioAlves
  * Created 23/06/2021 at 14:38
  */
-class Desafio5 {
-
-    /*
-    fun main(args: Array<String>) {
+fun main() {
 
     val n = readLine()!!.toInt()
-     //declare suas variaveis auxiliares e continue a solucao
-    var sum : Int
+    fibonacci(n)
 
+}
+val fibonacci:(Int) -> Unit = { numero->
 
-    for (i in 1..(n-1)) {
-        print("$   ")
+    var a = 1
+    var b = 0
+    var soma: Int
+    val lista:MutableList<String> = mutableListOf("0")
+    lista.add(" ")
 
-        sum =  + = = sum
+    for (i in 0 until numero-1){
+
+        lista.add(a.toString())
+        lista.add(" ")
+
+        soma = a
+        a += b
+        b = soma
+
     }
-    print("$t1")
-    println()
+    lista.forEach { numeros-> print(numeros) }
+}
 
-}
-     */
-}
+
+
+

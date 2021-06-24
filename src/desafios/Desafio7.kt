@@ -1,28 +1,23 @@
 package desafios
 
+import java.util.*
+
 /**
  * @author RubioAlves
  * Created 23/06/2021 at 14:39
  */
-class Desafio7 {
+fun main() {
 
-    /*
-   fun main(args: Array<String>) {
-
-    fun Double.format(digits: Int) = "%.${digits}f".format(this).replace(',','.')
+    fun Double.format(digits: Long) = "%.${digits}f".format(this).replace(',','.')
 
     val (a, b, c) = readLine()!!.split(" ").map { it.toDouble() }
 
-//insira as variaveis de acordo com o calculo do perimetro e area
+    val p = (a+b+c).format(1)
+    val r = (((a+b) * c / 2 )).format(1)
 
-    val p = (  +   +  ).format(1)
-
-    val r = ( ( (  +  ) *    / 2 ) ).format(1)
-
-    if (   < (  +  ) &&   < (  +  ) &&   < (  +  ) ) println("Perimetro = $p")
-
+    if (a < (b.plus(c)) &&  b < (a.plus(c)) &&  c < (a.plus(b))) println("Perimetro = $p")
     else println("Area = $r")
 
+
 }
-     */
-}
+
